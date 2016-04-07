@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- 为了让 IE 浏览器运行最新的渲染模式下 -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+<meta name="description" content="www.mycafei.com、WEB和移动端UI设计、前端开发、网站建设">
+<meta name="author" content="zhangyh">
+<link rel="stylesheet" type="text/css" href="css/my-ui.css">
+<link rel="stylesheet" type="text/css" href="css/my-fonts.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery/html5.js"></script>
+<script src="js/my-js/header.js"></script>
+<title>规范-表单</title>
+</head>
+<body>
+<!-- header -->
+<header data-load="header.htm" class="head"></header>
+<!-- banner -->
+<section class="bg-img-01">
+	<div class="bg-in">WEBUI组件介绍</div>
+</section>
+<!-- cont -->
+<section class="wrap clearfix ui-cont">
+	<h2>表单</h2>
+	<dl class="gf-form">
+		<dt>按钮：可用a标签，也可用input,或button标签</dt>
+		<dd class="gf-border example">
+			<div>
+				<span >按钮</span>
+				<a href="#" class="my-btn my-btn-disabled">禁用按钮</a>
+				<a href="#" class="my-btn my-btn-submit">提交按钮</a>
+				<a href="#" class="my-btn my-btn-cancel">取消按钮</a>
+				<a href="#" class="my-btn my-btn-blue">蓝色按钮</a>
+				<a href="#" class="my-btn my-btn-green">绿色按钮</a>
+				<a href="#" class="my-btn my-btn-red">红色按钮</a>
+				<a href="#" class="my-btn my-btn-yellow">黄色按钮</a>
+				<input type="button" value="禁用按钮" class="my-btn my-btn-disabled">
+			</div>
+			<div class="mt10">
+				<span >小按钮</span>
+				<a href="#" class="my-btn my-btn-disabled my-btn-sm">禁用按钮</a>
+				<a href="#" class="my-btn my-btn-submit my-btn-sm">提交按钮</a>
+				<a href="#" class="my-btn my-btn-cancel my-btn-sm">取消按钮</a>
+				<a href="#" class="my-btn my-btn-blue my-btn-sm">蓝色按钮</a>
+				<a href="#" class="my-btn my-btn-green my-btn-sm">绿色按钮</a>
+				<a href="#" class="my-btn my-btn-red my-btn-sm">红色按钮</a>
+				<a href="#" class="my-btn my-btn-yellow my-btn-sm">黄色按钮</a>
+			</div>
+			<div class="mt10">
+				<span >大按钮</span>
+				<a href="#" class="my-btn my-btn-disabled my-btn-la">禁用按钮</a>
+				<a href="#" class="my-btn my-btn-submit my-btn-la">提交按钮</a>
+				<a href="#" class="my-btn my-btn-cancel my-btn-la">取消按钮</a>
+				<a href="#" class="my-btn my-btn-blue my-btn-la">蓝色按钮</a>
+				<a href="#" class="my-btn my-btn-green my-btn-la">绿色按钮</a>
+				<a href="#" class="my-btn my-btn-red my-btn-la">红色按钮</a>
+				<a href="#" class="my-btn my-btn-yellow my-btn-la">黄色按钮</a>
+			</div>
+		</dd>
+		<dt>按钮组</dt>
+		<dd class="gf-border example">
+			<div class="my-btn-group relative">
+				<a href="#" class="my-btn my-btn-yellow ">下拉层</a><a href="#" class="my-btn my-btn-yellow"><i class="my-triangle my-triangle-down"></i></a>
+				<aside class="my-layer-4 my-line-box hide">
+					<a href="#">dialog内容</a>
+					<a href="#">dialog内容</a>
+					<a href="#">dialog内容</a>
+					<a href="#">dialog内容</a>
+				</aside>
+			</div><br/>
+			<div class="my-btn-group relative">
+				<a href="#" class="my-btn my-btn-green ">下拉层</a><a href="#" class="my-btn my-btn-green"><i class="my-triangle my-triangle-down"></i></a>
+				<aside class="my-layer-4 my-line-box hide">
+					<a href="#">dialog内容</a>
+					<a href="#">dialog内容</a>
+					<a href="#">dialog内容</a>
+					<a href="#">dialog内容</a>
+				</aside>
+			</div>
+		</dd>
+		<dt class="mt10">form组件</dt>
+		<dd class="gf-border example">
+				<div class="m10">
+					<span class="mr10"><input type="checkbox" disabled="true">check</span>
+					<span class="mr10"><input type="checkbox">check</span>
+					<span class="mr10"><input type="radio" disabled="true">radio</span>
+					<span class="mr10"><input type="radio">radio</span>
+				</div>
+				<div class="m10">
+					<span class="mr10"><input type="checkbox" disabled="true">check</span>
+					<span class="mr10"><input type="checkbox">check</span>
+					<span class="mr10"><input type="radio" disabled="true">radio</span>
+					<span class="mr10"><input type="radio">radio</span>
+				</div>
+				<div class="m10"><input type="text" class="my-input"></div>
+				<div class="m10">
+					<select class="my-select">
+						<option>select</option>
+					</select>
+				</div>
+				<div class="m10">
+					<select class="my-select" multiple="">
+						<option>select1</option>
+						<option>select2</option>
+					</select>
+				</div>
+				<div class="m10"><textarea class="my-textarea"></textarea></div>
+				<div class="m10">
+					<!-- date -->
+					<div class="my-input-date">
+						<input type="text" class="my-input"><a href="#" class="my-btn-date" title=""></a>
+					</div>
+				</div>
+				<div class="m10">
+					<!-- search -->
+					<div class="my-input-search">
+						<input type="text" class="my-input"><a href="#" class="my-btn-search" title="搜索"></a>
+					</div>
+				</div>
+				<div class="m10">
+					<!-- 上传文件 -->
+					<div class="my-input-file">
+						<input type="file" class="my-input my-input-file-moni">
+						<input type="text" class="my-input">
+						<a href="#" class="my-btn-file" title="上传文件"></a>
+					</div>
+				</div>
+			</dd>
+			<dd class="gf-border example">
+				<!-- 水平-横向form -->
+				<form action="">
+					<ul class="my-form-horizontal">
+						<li>
+							<div class="w01">姓名</div>
+							<div class="w02"><input type="text" class="my-input"><i class="my-color-9">请输入8个字</i></div>
+						</li>
+						<li>
+							<div class="w01">密码</div>
+							<div class="w02"><input type="password" class="my-input"></div>
+						</li>
+						<li>
+							<div class="w01">地点</div>
+							<div class="w02">
+								<select class="my-select">
+									<option>select</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<div class="w01">简介</div>
+							<div class="w02"><textarea class="my-textarea"></textarea></div>
+						</li>
+						<li>
+							<div class="w01">验证码</div>
+							<div class="w02"><input type="text" class="my-input my-input-yzm"><a href="#">看不清</a></div>
+						</li>
+					</ul>
+					<footer class="my-form-foot"><a href="#" class="my-btn my-btn-submit">提交</a><a href="#" class="my-btn my-btn-cancel">取消</a></footer>
+				</form>
+			</dd>
+			<dd class="gf-border example">
+				<!-- 纵向垂直form -->
+				<form action="">
+					<ul class="my-form">
+						<li>
+							<div class="w01">姓名</div>
+							<div class="w02"><input type="text" class="my-input"><i class="my-color-9">请输入8个字</i></div>
+						</li>
+						<li>
+							<div class="w01">密码</div>
+							<div class="w02"><input type="password" class="my-input"></div>
+						</li>
+						<li>
+							<div class="w01">地点</div>
+							<div class="w02">
+								<select class="my-select">
+									<option>select</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<div class="w01">简介</div>
+							<div class="w02"><textarea class="my-textarea"></textarea></div>
+						</li>
+						<li>
+							<div class="w01">验证码</div>
+							<div class="w02"><input type="text" class="my-input" name="yzm"><a href="#">看不清</a></div>
+						</li>
+					</ul>
+					<footer class="my-form-foot"><a href="#" class="my-btn my-btn-submit">提交</a><a href="#" class="my-btn my-btn-cancel">取消</a></footer>
+				</form>
+			
+		</dd>
+	</dl>
+</section>
+<!-- footer -->
+ <footer data-load="footer.htm"></footer>
+</body>
+</html>

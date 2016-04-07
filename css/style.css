@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{font-size:12px;}
+.wrap{margin:0 auto;}
+.head{height:50px;}
+.banner{}
+.index-cont .col3{text-align:center;margin:20px 0.5%;width:31.733%;font-size:14px;}
+.index-cont a:link,.index-cont a:visited{color:#fff;}
+.index-cont a{display:inline-block;padding:20px;}
+.index-cont a:hover{text-decoration:underline;}
+.index-cont dt{color:#fff;padding:20px 0 0 0;font-size:24px;}
+
+.bg-in{font-size:24px;text-align:center;padding:30px 0}
+/*banner*/
+.bg-img-01{background:url(../images/banner/bg-img-01.jpg) repeat;height:200px;}
+/*cont*/
+.ui-cont{padding:30px;}
+.ui-cont h2{font-size:20px;margin:10px 0 10px 0}
+.ui-cont .text-ts{color:#999;padding:10px 0;}
+.gf-border{border:1px solid #f9f9f9;padding:20px 20px 20px 50px;position:relative;margin:10px 0}
+.gf-border.example:before{content:"example";transform:rotate(-90deg);position:absolute;left:-5px;top:45px;}
+
+/*字体图标*/
+.font-list li{width:30%;float:left;height:24px;line-height:24px;font-size:12px;}
+.font-list [class^="my-icon-"]{font-size:15px;}
+
